@@ -1,0 +1,9 @@
+jonhyypi@lx1-fuxi104:~$ docker ps -as
+CONTAINER ID   IMAGE     COMMAND                  CREATED         STATUS                     PORTS     NAMES                 SIZE
+3131fbbd18dd   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 2 minutes ago             happy_noyce           1.09kB (virtual 133MB)
+891de1ae9b12   nginx     "/docker-entrypoint.…"   2 minutes ago   Exited (0) 2 minutes ago             cranky_brown          1.09kB (virtual 133MB)
+661811121e00   nginx     "/docker-entrypoint.…"   2 minutes ago   Up 2 minutes               80/tcp    vigilant_kowalevski   1.09kB (virtual 133MB)
+jonhyypi@lx1-fuxi104:~$ docker images
+REPOSITORY    TAG       IMAGE ID       CREATED       SIZE
+nginx         latest    87a94228f133   3 weeks ago   133MB
+hello-world   latest    feb5d9fea6a5   6 weeks ago   13.3kB

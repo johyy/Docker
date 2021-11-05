@@ -1,0 +1,5 @@
+jonhyypi@lx1-fuxi104:~$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS                      PORTS     NAMES
+3131fbbd18dd   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 38 seconds ago             happy_noyce
+891de1ae9b12   nginx     "/docker-entrypoint.…"   About a minute ago   Exited (0) 34 seconds ago             cranky_brown
+661811121e00   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute           80/tcp    vigilant_kowalevski

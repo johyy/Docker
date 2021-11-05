@@ -1,0 +1,13 @@
+jonhyypi@lx1-fuxi104:~$ docker container ls
+CONTAINER ID   IMAGE                                      COMMAND                 CREATED         STATUS         PORTS     NAMES
+15e39eaae15e   devopsdockeruh/simple-web-service:ubuntu   "/usr/src/app/server"   6 seconds ago   Up 6 seconds             practical_carson
+jonhyypi@lx1-fuxi104:~$ docker exec -it practical_carson bash
+root@15e39eaae15e:/usr/src/app# tail -f ./text.log
+2021-11-05 16:05:17 +0000 UTC
+2021-11-05 16:05:19 +0000 UTC
+2021-11-05 16:05:21 +0000 UTC
+2021-11-05 16:05:23 +0000 UTC
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2021-11-05 16:05:25 +0000 UTC
+2021-11-05 16:05:27 +0000 UTC
+
