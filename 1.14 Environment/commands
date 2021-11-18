@@ -1,0 +1,10 @@
+Terminal 1:
+docker build . -t example-frontend && docker run -p 5000:5000 example-frontend
+
+Terminal 2:
+docker build . -t example-backend && docker run -p 8080:8080 example-backend
+
+...
+
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2021/11/18 - 13:55:07 | 200 |      66.542µs |      172.17.0.1 | GET      "/ping"
