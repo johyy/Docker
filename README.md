@@ -1,1 +1,1 @@
-<h2>This repository is assigned for the exercise of the course DevOps with Docker by University of Helsinki. </h2>
+_Tehtävät on tehty Helsingin Yliopiston kurssilla "DepOps with Docker"._
